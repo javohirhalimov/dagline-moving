@@ -1,14 +1,16 @@
 {
-  "homepage": "http://javohirhalimov.github.io/dagline-moving",
+  "homepage": "https://javohirhalimov.github.io/dagline-moving",
   "name": "nextjs-tailwind",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
+        "build": "next build",
+    "export": "next-export",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider next build"
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
+
   },
   "dependencies": {
     "16": "^0.0.2",
