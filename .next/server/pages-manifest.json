@@ -3,9 +3,9 @@
   "/_document": "pages/_document.js",
   "/contact-form": "pages/contact-form.html",
   "/contact": "pages/contact.html",
-  "/meet-the-team": "pages/meet-the-team.html",
+  "/": "pages/index.html",
   "/reviews": "pages/reviews.html",
   "/_app": "pages/_app.js",
-  "/": "pages/index.html",
+  "/meet-the-team": "pages/meet-the-team.html",
   "/404": "pages/404.html"
 }

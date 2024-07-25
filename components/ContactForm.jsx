@@ -204,6 +204,12 @@
 //   )
 // }
 
+
+
+
+
+
+
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 
@@ -285,7 +291,7 @@ const ContactForm = () => {
             >
               <div>
                 <label
-                  htmlFor="first_name"
+                  id="first_name"
                   className="block text-sm font-medium text-gray-700"
                 >
                   First name
@@ -305,7 +311,7 @@ const ContactForm = () => {
 
               <div>
                 <label
-                  htmlFor="last_name"
+                  id="last_name"
                   className="block text-sm font-medium text-gray-700"
                 >
                   Last name
@@ -325,7 +331,7 @@ const ContactForm = () => {
 
               <div className="sm:col-span-2">
                 <label
-                  htmlFor="email"
+                  id="email"
                   className="block text-sm font-medium text-gray-700"
                 >
                   Email
@@ -362,7 +368,7 @@ const ContactForm = () => {
               <div className="sm:col-span-2">
                 <div className="flex justify-between">
                   <label
-                    htmlFor="phone"
+                    id="phone"
                     className="block text-sm font-medium text-gray-700"
                   >
                     Phone
