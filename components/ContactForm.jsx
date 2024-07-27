@@ -240,6 +240,8 @@ const ContactForm = () => {
     setFormData({ ...formData, [name]: value });
   };
 
+  
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -260,7 +262,32 @@ const ContactForm = () => {
           alert("Failed to send message, please try again.");
         }
       );
+      setFormData(  {firstName: "",
+        lastName: "",
+        email: "",
+        company: "",
+        phone: "",
+        comments: "",
+        homeSize: "",
+        heardAboutUs: "",
+        accessType: "",
+        packing: "",
+        certInsurance: ""} )
   };
+
+  // const handleReset = () => {
+  //   setFormData(  {firstName: "",
+  //     lastName: "",
+  //     email: "",
+  //     company: "",
+  //     phone: "",
+  //     comments: "",
+  //     homeSize: "",
+  //     heardAboutUs: "",
+  //     accessType: "",
+  //     packing: "",
+  //     certInsurance: ""} )
+  // }
 
   return (
     <div className="relative bg-white">
@@ -373,12 +400,12 @@ const ContactForm = () => {
                   >
                     Phone
                   </label>
-                  <span
+                  {/* <span
                     id="phone_description"
                     className="text-sm text-gray-500"
                   >
                     Optional
-                  </span>
+                  </span> */}
                 </div>
                 <div className="mt-1">
                   <input
@@ -484,6 +511,7 @@ const ContactForm = () => {
                     name="certInsurance"
                     value={formData.certInsurance}
                     onChange={handleChange}
+                    
                     className="w-64 p-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
                     required
                   >
@@ -553,6 +581,7 @@ const ContactForm = () => {
               <div className="text-right sm:col-span-2">
                 <button
                   type="submit"
+                 
                   className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                 >
                   Submit

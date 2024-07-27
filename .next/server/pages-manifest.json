@@ -1,11 +1,5 @@
 {
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/contact-form": "pages/contact-form.html",
-  "/contact": "pages/contact.html",
-  "/": "pages/index.html",
-  "/reviews": "pages/reviews.html",
   "/_app": "pages/_app.js",
-  "/meet-the-team": "pages/meet-the-team.html",
-  "/404": "pages/404.html"
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
 }
