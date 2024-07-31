@@ -4,7 +4,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 
 const navigation = [
-  { name: 'Meet the Team', href: 'meet-the-team' },
+  // { name: 'Meet the Team', href: 'meet-the-team' },
   { name: 'Testimonials', href: 'reviews' },
   { name: 'Contact', href: 'contact' },
 ]
@@ -109,7 +109,7 @@ export default function PagesNav() {
                         ))}
                       </div>
 
-                      <Link href="contact">
+                      <Link href="contact-form">
                         <a
                           className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                         >

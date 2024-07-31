@@ -5,7 +5,7 @@ import { PlusIcon } from '@heroicons/react/solid'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
-  { name: 'Team', href: '/meet-the-team', current: false },
+  // { name: 'Team', href: '/meet-the-team', current: false },
   { name: 'Pricing', href: '#', current: false },
   { name: 'Blog', href: '#', current: false },
 ]

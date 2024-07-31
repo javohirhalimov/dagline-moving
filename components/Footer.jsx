@@ -76,14 +76,14 @@ import Link from 'next/link'
 
 const navigation = {
   main: [
-    { name: 'Meet the Team', href: 'meet-the-team' },
+    // { name: 'Meet the Team', href: 'meet-the-team' },
     { name: 'Testimonials', href: 'reviews' },
     { name: 'Book Your Move', href: 'contact-form' },
   ],
   social: [
     {
       name: 'Facebook',
-      href: '#',
+      href: 'Our Facebook Page is comming soon! Sorry for the inconvenience.',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -96,7 +96,7 @@ const navigation = {
     },
     {
       name: 'Instagram',
-      href: '#',
+      href: 'Our Facebook Page is comming soon! Sorry for the inconvenience.',
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -113,7 +113,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-white mt-16">
-      <div className="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto py-0 mb-2 px-4 overflow-hidden sm:px-6 lg:px-8">
         <nav className="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="px-5 py-2">
@@ -127,7 +127,7 @@ export default function Footer() {
             </div>
           ))}
         </nav>
-        <div className="mt-4 flex justify-center space-x-6">
+        <div className="mt-2 flex justify-center space-x-6">
           {navigation.social.map((item) => (
 
             <Link href={item.href}>
@@ -139,7 +139,7 @@ export default function Footer() {
 
           ))}
         </div>
-        <p className="mt-4 text-center text-base text-gray-400">&copy; {new Date().getFullYear()} Dagline Moving, Inc. All rights reserved.</p>
+        <p className="mt-2 text-center text-base text-gray-400">&copy; {new Date().getFullYear()} Dagline Moving, Inc. All rights reserved.</p>
       </div>
     </footer>
   )

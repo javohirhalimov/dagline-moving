@@ -40,11 +40,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/contact-form.js"
     ],
-    "/meet-the-team": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/meet-the-team.js"
-    ],
     "/reviews": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

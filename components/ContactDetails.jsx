@@ -13,7 +13,7 @@ export default function Example() {
             <p className="mt-3 text-lg leading-6 text-gray-500">
               Contact us today to learn how we can help with your next move.
             </p>
-            <dl className="mt-8 text-base text-gray-500">
+            <dl className="mt-12 text-base text-gray-500">
               <div>
                 <dt className="sr-only">Postal address</dt>
                 <dd>
@@ -32,7 +32,7 @@ export default function Example() {
                 <dt className="sr-only">Email</dt>
                 <dd className="flex">
                   <MailIcon className="flex-shrink-0 h-6 w-6 text-gray-400" aria-hidden="true" />
-                  <span className="ml-3">gashimovruslya@gmail.com</span>
+                  <span className="ml-3">gashimovrussell@gmail.com</span>
                 </dd>
               </div>
             </dl>

@@ -5,14 +5,13 @@
   "private": false,
   "scripts": {
     "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
-        "build": "next build",
+    "build": "next build",
     "export": "next export",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
     "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out",
     "build-css": "tailwindcss build -i ./src/styles.css -o ./public/styles.css",
     "tailwind": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
-
   },
   "dependencies": {
     "16": "^0.0.2",
@@ -24,7 +23,12 @@
     "next": "^12.1.2",
     "npm": "^10.8.2",
     "react": "^17.0.2",
+    "react-accessible-accordion": "^5.0.0",
     "react-dom": "^17.0.2",
+    "react-icons": "^5.2.1",
+    "react-md": "^5.1.6",
+    "react-responsive-carousel": "^3.2.23",
+    "swiper": "^11.1.8",
     "use": "^3.1.1"
   },
   "devDependencies": {
