@@ -48,9 +48,9 @@ const ContactUs = () => {
                   </div>
                 </div>
 
-                <div className="flexCenter button">
-                <button onClick={handleCallNow}>Call Now</button>
-                  </div>
+      
+                <button  className="flexCenter button" onClick={handleCallNow}>Call Now</button>
+           
               </div>
 
               <div className="flexColCenter mode">
@@ -64,9 +64,9 @@ const ContactUs = () => {
                   </div>
                 </div>
 
-                <div className="flexCenter button">
-                  <button onClick={handleTextNow}>Text Now</button>
-                </div>
+     
+                  <button className="flexCenter button" onClick={handleTextNow}>Text Now</button>
+       
               </div>
             </div>
 
@@ -84,9 +84,9 @@ const ContactUs = () => {
                     </span>
                   </div>
                 </div>
-                <div className="flexCenter button longer">
-                <button onClick={handleEmailNow}>Email Now</button>
-                </div>
+               
+                <button className="flexCenter button longer" onClick={handleEmailNow}>Email Now</button>
+               
               </div>
             </div>
 
@@ -97,7 +97,7 @@ const ContactUs = () => {
 
         <div className="c-right">
           <div className="image-container">
-            <img src="./contactUs.jpeg" alt="" />
+            <img src="./team_photo.jpg" alt="" />
           </div>
         </div>
       </div>

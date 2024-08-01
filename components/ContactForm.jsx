@@ -443,7 +443,7 @@ const ContactForm = () => {
                     <option value="2 Bedroom Apartment">2 Bedroom Apartment</option>
                     <option value="3 Bedroom Apartment">3 Bedroom Apartment</option>
                     <option value="1 Bedroom House">1 Bedroom House</option>
-                    <option value="2 Bedroom Hous">2 Bedroom House</option>
+                    <option value="2 Bedroom House">2 Bedroom House</option>
                     <option value="3 Bedroom House">3 Bedroom House</option>
                     <option value="4 or More Bedroom House">4 or More Bedroom House</option>
                   </select>

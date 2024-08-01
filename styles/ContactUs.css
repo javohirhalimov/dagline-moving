@@ -6,7 +6,7 @@
 
   .orangeTextContactUs{
     color: orange;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     margin-bottom: -0.7rem;
   /* margin-left: 2rem; */
@@ -15,7 +15,7 @@
   .primaryTextContactUs{
     color: #1f3e72;
     font-weight: bold;
-    font-size: 1.9rem;
+    font-size: 2rem;
     /* margin-left: 2rem; */
   }
 
@@ -29,6 +29,9 @@
 
 .c-right{
     width: 100%;
+    border: 15px;
+    border-color: #1f3e72;
+    /* height: 20rem; */
 }
 
 .c-left{
@@ -85,6 +88,15 @@
     color: white;
     scale: 0.8;
 }
+
+.c-right .image-container> img{
+    border: 6px solid rgb(232 232 232 / 93%);
+
+    object-fit: cover;
+    /* height: 35rem; */
+}
+
+
 /* .flexCenter .longer{
     width: 16rem;
     margin-left: 2rem;
