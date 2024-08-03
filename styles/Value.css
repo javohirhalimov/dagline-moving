@@ -82,4 +82,10 @@ margin-top: -3rem;
       .accordionButton .primaryText{
           font-size: .8rem;
       }
+      .primaryTextValue{
+        font-size: 1.3rem;
+      }
+      .orangeTextValue{
+        font-size: 1.7rem;
+      }
   }

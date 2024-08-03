@@ -138,4 +138,11 @@
     .r-buttons{
       position: initial;
     }
+    .r-head .orangeText{
+      font-size: 1.7rem;
+    }
+    .r-head .primaryText{
+      font-size: 1.3rem;
+    }
+
   }

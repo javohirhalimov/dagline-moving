@@ -124,3 +124,16 @@
           width: 100%;
       }
   }
+
+  @media (max-width: 640px) {
+    .primaryTextContactUs{
+        font-size: 1.3rem;
+      }
+      .orangeTextContactUs{
+        font-size: 1.7rem;
+      }
+      .secondaryTextContactUs{
+        font-size: 0.9rem;
+      }
+  }
+    

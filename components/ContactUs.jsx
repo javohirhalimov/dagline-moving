@@ -4,7 +4,7 @@ import { BsFillChatDotsFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 const ContactUs = () => {
   const phoneNumber = "(201) 275-8281";
-  const email = 'gashimovrussell@gmail.com';
+  const email = 'daglinemoving@gmail.com';
 
 
   const handleTextNow = () => {
@@ -80,7 +80,7 @@ const ContactUs = () => {
                   <div className="flexColStart detail">
                     <span className="primaryText">Email</span>
                     <span className="secondaryText">
-                      gashimovrussell@gmail.com
+                     daglinemoving@gmail.com
                     </span>
                   </div>
                 </div>
