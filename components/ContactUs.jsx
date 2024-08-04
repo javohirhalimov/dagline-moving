@@ -97,7 +97,7 @@ const ContactUs = () => {
 
         <div className="c-right">
           <div className="image-container">
-            <img src="./team_photo.jpg" alt="" />
+            <img src="./team_photo.jpg" alt="dagline-moving company team" />
           </div>
         </div>
       </div>

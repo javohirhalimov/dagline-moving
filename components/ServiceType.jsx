@@ -21,7 +21,7 @@ const ServiceType = () => {
 
             <SwiperSlide key={i}>
               <div className="flexColStart r-card">
-                <img src={card.image} alt="service work image" />
+                <img src={card.image} alt="dagline-moving company service types" />
                 <span className="secondaryText r-price">
                   {/* <span></span> */}
                   <span className="primaryTextName">{card.name}</span>

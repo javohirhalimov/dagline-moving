@@ -296,7 +296,7 @@ const ContactForm = () => {
           <img
             className="h-56 w-full object-cover lg:absolute lg:h-full"
             src="https://images.unsplash.com/photo-1520038410233-7141be7e6f97?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1653&q=80"
-            alt=""
+            alt="dagline-moving company quote"
           />
         </div>
       </div>

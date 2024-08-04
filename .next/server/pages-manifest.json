@@ -2,9 +2,9 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/_app": "pages/_app.js",
+  "/contact": "pages/contact.html",
+  "/reviews": "pages/reviews.html",
   "/contact-form": "pages/contact-form.html",
   "/": "pages/index.html",
-  "/reviews": "pages/reviews.html",
-  "/contact": "pages/contact.html",
   "/404": "pages/404.html"
 }
